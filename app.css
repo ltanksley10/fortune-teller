@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #ccdfff;
+}
+
+h2 {
+    width: 300px;
+    align-self: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+img {
+    width: 100px;
+    align-self: center;
+}
+
+input {
+    background-color: #b370ab;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    padding: 2px 2px 2px 2px;
+    width: 125px;
+    align-self: center;
+    margin-bottom: 2px;
+}
+
+input:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#displayMessage {
+    display: none;
+}
+
+
+
+
